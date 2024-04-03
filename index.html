@@ -3,72 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website</title>
+    <title>MACAPROFIT</title>
+    <link rel="icon" href="macaprofit-icon.png" type="x-icon">
 
-    <!-- Custom css link -->
-    <link rel="stylesheet" type="text/css" href="css/eudora.css">
-
-    <!-- Boxicon link -->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-    <!-- remixicon link -->
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/app.css">
 
     <!-- Google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+    <!-- remixicon link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+
 </head>
 <body>
+    
+    <div class="background-image">
+        <img src="image/bg.jpg" alt="background-image">
+    </div>
 
     <header>
-        <a href="#" class="logo">MLBB-STATS</a>
+        <div class="display-logo">
+            <div class="logo">
+                <img src="image/macaprofit_logo.png" alt="macaprofit">
+                <h1>MACAPROFIT</h1>
+            </div>
+            <button class="btn">
+                JOIN NOW
+            </button>
+        </div>
 
-        <ul class="navlist">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Prepararion</a></li>
-            <li><a href="#">Hero</a></li>
-            <li><a href="#">Contact</a></li>
-
-        </ul>
-
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Stocks</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h5>#1 trending</h5>
-            <h4>Moontod</h4>
-            <h1>Eudora</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus excepturi 
-                dolorem delectus sed tempora ratione enim reprehenderit placeat eos incidunt?</p>   
-            <a href="#">Compare</a>
-            <a href="#" class="ctaa"><i class="ri-play-fill">Watch Gameplay</i></a>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>ACCELERATING GROWTH</h1>
+                <h3>Invest in Macaroni Business</h2>
+                <button class="btn">
+                    <a href="#">INVEST NOW</a>
+                </button>
+            </div>
+        </section>
+
+        <section class="product">
+            <article>
+                <h1>OUR MACARONI PRODUCTS</h1>
+                <div class="product-box">
+                    <div class="product-card">
+                        <img src="image/product4.png" alt="">
+                        <h2>Macaroni Spicy Indof**d</h2>
+                        <h2>Rp200.000</h2>
+                    </div>
+                    <div class="product-card">
+                        <img src="image/product3.png" alt="">
+                        <h2>Macaroni Spicy Indof**d</h2>
+                        <h2>Rp200.000</h2>
+                    </div>
+                    <div class="product-card">
+                        <img src="image/product1.png" alt="">
+                        <h2>Macaroni Spicy Indof**d</h2>
+                        <h2>Rp200.000</h2>
+                    </div>
+                    <div class="product-card">
+                        <img src="image/product7.png" alt="">
+                        <h2>Macaroni Spicy Indof**d</h2>
+                        <h2>Rp200.000</h2>
+                    </div>
+                    <div class="product-card">
+                        <img src="image/product5.png" alt="">
+                        <h2>Macaroni Spicy Indof**d</h2>
+                        <h2>Rp200.000</h2>
+                    </div>
+                    <div class="product-card">
+                        <img src="image/product6.png" alt="">
+                        <h2>Macaroni Spicy Indof**d</h2>
+                        <h2>Rp200.000</h2>
+                    </div>
+                </div>
+                <button class="btn">
+                    <a href="#">Load More</a>
+                </button>
+            </article>
+        </section>
+
+        <section class="opportunities">
+            <article>
+                <h1>INVESTMENT OPPORTUNITIES</h1>
+                <div class="invest-option">
+                    <div class="option-card">
+                        <h2 class="service-name">PT. Bambang</h2>
+                        <p>Small company in Surabaya</p>
+                        <h3>IDR3M</h3>
+                        <button>
+                            <a href="#">Invest Now</a>
+                        </button>
+                    </div>
+                    <div class="option-card">
+                        <h2 class="service-name">Cahaya Bambang</h2>
+                        <p>Small company in Surabaya</p>
+                        <h3>IDR4M</h3>
+                        <button>
+                            <a href="#">Invest Now</a>
+                        </button>
+                    </div>
+                    <div class="option-card">
+                        <h2 class="service-name">Bambang Flour</h2>
+                        <p>Small company in Surabaya</p>
+                        <h3>IDR5M</h3>
+                        <button>
+                            <a href="#">Invest Now</a>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+        <section class="story">
+            <article>
+                <h1>OUR VENTURE STORY</h1>
+                <p>MacaProfit is a leading Venture Capital Firm with a proven track record of</p>
+                <p>success in the Indonesian market. Our investment focus is on macaroni</p>
+                <p>companies and products, and we are committed to providing our investors</p>
+                <p>with the best opportunities in the industry.</p>
+                <p>We have a rigorous selection process to ensure we only work with the most</p>
+                <p>promising companies and entrepreneurs. We invest in a handful of companies</p>
+                <p>each year, allowing us to provide our full attention and support to those</p>
+                <p>believe have the potential to succeed.</p>
+                <p>Join us in investing in the future of macaroni.</p>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <h2>MACAPROFIT</h2>
+        <div>
+            <p>Macaprofit.co.id</p>
+            <p>Juanda street, 20th floor, Indonesia</p>
+            <p>081366915612</p>
         </div>
-        <div class="hero-img">
-            <img src="img/eudora.png" alt="">
+    </footer>
+
+    <aside>
+        <div class="contacts">
+            <a href="#"><i class="ri-account-circle-line"></i></a>
+            <a href="https://www.instagram.com/seyketsu/"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.linkedin.com/in/asepirawan/"><i class="ri-linkedin-box-line"></i></a>
         </div>
-    </section>
-
-    <div class="icons">
-        <a href="#"><i class="ri-instagram-line"></i></a>
-        <a href="#"><i class="ri-youtube-line"></i></a>
-        <a href="#"><i class="ri-dribbble-line"></i></a>
-    </div>
-
-    <div class="scroll-down">
-        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
-    </div>
-
+        <div class="about">
+            <div class="btn">
+                <a href="#">About</a>
+            </div>
+            <div class="about-box" id="about-box">
+                <div class="card">
+                    <img src="image/macaroni-about.png" alt="">
+                </div>
+                <p>MacaProfit is a company founded by Asep Irawan by 2024 on ocasion of website making project idea.
+                    It is made based on how macaroni can be distributed and processed to make a lot of type of food.
+                </p>
+            </div>
+        </div>
+    </aside>
+    
     <!-- Scroll reveral effect -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- Custom Js link -->
-    <script src="js/eudora.js"></script>
-
+    <script src="js/app.js"></script>
 </body>
 </html>
